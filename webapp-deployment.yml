@@ -4,6 +4,7 @@ metadata:
   name: webapp
   namespace: $JOB_BASE_NAME
 spec:
+  replicas: 2
   strategy:
     rollingUpdate:
       maxSurge: 1
