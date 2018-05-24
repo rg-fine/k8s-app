@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: webapp
-  namespace: $GIT_LOCAL_BRANCH
+  namespace: $JOB_BASE_NAME
 spec:
   replicas: 1
   template:
