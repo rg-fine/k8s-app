@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: inventx/k8s:0.2.15
+        image: inventx/k8s:0.2.16
         imagePullPolicy: Always
         env:
         - name: Author
